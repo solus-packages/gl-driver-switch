@@ -22,8 +22,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2015-05-12</Date>
+        <Update release="3">
+            <Date>2015-07-28</Date>
             <Version>1</Version>
             <Comment>Packaging update</Comment>
             <Name>Ikey Doherty</Name>
