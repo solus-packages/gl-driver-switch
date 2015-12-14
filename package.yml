@@ -1,15 +1,14 @@
 name       : gl-driver-switch
-version    : 1
-release    : 3
+version    : 2
+release    : 4
 source     :
-    - https://github.com/solus-project/gl-driver-switch/releases/download/v1/gl-driver-switch-1.tar.xz : 00c5f5b78367cf43cd2284a4f95e4b3c29d1c64dad5d8b56e88e1a1db500fe18
+    - https://github.com/solus-project/gl-driver-switch/releases/download/v2/gl-driver-switch-2.tar.xz : 6d609ec57e18d7c093d46ba1f0e3714c29eeff61f02c86d370f9743277cd4f4a
 license    : GPL-2.0
 summary    : GL Driver Switch Utility
 description: |
     GL Driver Switch Utility
 builddeps  :
 setup      : |
-    %patch -p1 < $pkgfiles/0001-Fix-enormous-path_exists-issue-broken-symlinks.patch
     %configure
 build      : |
     %make
